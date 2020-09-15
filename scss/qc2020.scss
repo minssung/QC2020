@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+
+$background: #020B13;
+$black: #222222;
+$white: #ffffff;
+
+$default: #fff;
+$defaultTextColor: #222222;
+$defaultSecondaryTextColor: #eee;
+
+
+$red: #D32F2F;
+$redTextColor: $white;
+$redSecondaryTextColor: #F44336;
+
+$blue: #303F9F;
+$blueTextColor: $white;
+$blueSecondaryTextColor: #3F51B5;
+
+$yellow: #F9A825;
+$yellowTextColor: $black;
+$yellowSecondaryTextColor: #FBC02D;
+
+
+body {
+  background: $background;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 800px;
+  margin: 80px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.quote-card {
+  background: skyblue;
+  color: $defaultTextColor;
+  
+  width: 300px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top: 10px solid #DCE775;
+
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba($black, 0.12);
+  
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  
+  p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 80%;
+    font-weight: 800;
+  }
+  
+  cite {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 200;
+    opacity: 0.8;
+  }
+  
+  &:before {
+    font-family: Georgia, serif;
+    content: "“";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 5em;
+    color: rgba($defaultSecondaryTextColor, 0.8);
+    font-weight: normal;
+  }
+  
+  &:after {
+    font-family: Georgia, serif;
+    content: "”";
+    position: absolute;
+    bottom: -110px;
+    line-height: 100px;
+    right: 40px;
+    font-size: 15em;
+    color: rgba($defaultSecondaryTextColor, 0.8);
+    font-weight: normal;
+  }
+  
+//   @media(max-width: 640px) {
+//     &:after {
+//       font-size: 22em;
+//       right: -25px;
+//     }
+//   }
+}
