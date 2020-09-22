@@ -1,14 +1,7 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
-body {
-  background: #020B13;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-}
-
 .content {
   max-width: 800px;
-  margin: 80px auto;
+  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,64 +13,144 @@ body {
           justify-content: center;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .quote-card {
-  background: skyblue;
-  color: #222222;
   width: 300px;
-  border-top-left-radius: 35px;
-  border-bottom-right-radius: 35px;
+  border-top-left-radius: 20px;
   border-top: 10px solid #DCE775;
-  padding: 20px;
-  padding-left: 50px;
+  padding: 1.5em;
+  padding-left: 3em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
-          box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
   min-height: 120px;
+  background: skyblue;
+  color: #222222;
 }
 
 .quote-card p {
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 800;
   line-height: 1.5;
   margin: 0;
-  max-width: 80%;
-  font-weight: 800;
-}
-
-.quote-card cite {
-  font-size: 16px;
-  margin-top: 10px;
-  display: block;
-  font-weight: 200;
-  opacity: 0.8;
 }
 
 .quote-card:before {
   font-family: Georgia, serif;
   content: "“";
   position: absolute;
-  top: 10px;
-  left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
+  top: -20px;
+  left: 10px;
 }
 
 .quote-card:after {
   font-family: Georgia, serif;
   content: "”";
   position: absolute;
-  bottom: -110px;
-  line-height: 100px;
-  right: 40px;
   font-size: 15em;
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
+  bottom: -90px;
+  right: 40px;
+  line-height: 100px;
+}
+
+.quote-card2 {
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top: 10px solid rgba(255, 255, 0, 0.3);
+  padding: 1.5em;
+  padding-left: 3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  background: #ff9900;
+  color: #222222;
+}
+
+.quote-card2 p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.quote-card2:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+  top: -20px;
+  left: 10px;
+}
+
+.quote-card2:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  font-size: 15em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+  bottom: -90px;
+  right: 40px;
+  line-height: 100px;
+}
+
+.quote-card3 {
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top: 10px solid #28a745;
+  padding: 1.5em;
+  padding-left: 3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  background: #DCE775;
+  color: #222222;
+}
+
+.quote-card3 p {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.quote-card3:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  font-size: 5em;
+  color: rgba(34, 34, 34, 0.3);
+  font-weight: normal;
+  top: -20px;
+  left: 10px;
+}
+
+.quote-card3:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  font-size: 15em;
+  color: rgba(34, 34, 34, 0.3);
+  font-weight: normal;
+  bottom: -90px;
+  right: 40px;
+  line-height: 100px;
 }
 /*# sourceMappingURL=qc2020.css.map */

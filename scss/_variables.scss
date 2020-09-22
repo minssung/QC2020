@@ -1,0 +1,28 @@
+$default-width: 100%;
+$default-height: 100%;
+$default-padding: 1em;
+$default-margin-top: 1em;
+$default-margin-right: 1em;
+
+// content
+$default-margin: 1em auto;
+$default-display: flex;
+$default-align-items: center;
+$default-justify-content: center;
+
+// quote-card
+$default-box-sizing: border-box;
+$default-box-shadow: 0 2px 4px rgba($black, 0.12);
+$default-position: relative;
+$default-overflow: hidden;
+$default-min-height: 120px;
+
+// quote-card p
+$default-line-height: 1.5;
+$zero: 0;
+
+// quote before & after
+$quote-font-family: Georgia, serif;
+$quote-position: absolute;
+$quote-font-weight: normal;
+$quote-line-height: 100px;

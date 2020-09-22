@@ -1,0 +1,81 @@
+.content {
+  @include content(800px);
+}
+
+.quote-card {
+  @include quotecard(300px, 20px, 10px solid #DCE775);
+  background: $sky;
+  color: $batman;
+  
+  p {
+    @include quotecard-text(18px, 800);
+    line-height: $default-line-height;
+    margin: $zero;
+  }
+  
+  &:before {
+    @include quote("“", 5em, $bg-rice);
+    top: -20px;
+    left: 10px;
+  }
+  
+  &:after {
+    @include quote("”", 15em, $bg-rice);
+    bottom: -90px;
+    right: 40px;
+    line-height: $quote-line-height;
+  }
+  
+}
+
+.quote-card2 {
+  @include quotecard(300px, 20px, 10px solid $bg-cheese);
+  background: $orange;
+  color: $batman;
+  
+  p {
+    @include quotecard-text(18px, 800);
+    line-height: $default-line-height;
+    margin: $zero;
+  }
+  
+  &:before {
+    @include quote("“", 5em);
+    top: -20px;
+    left: 10px;
+  }
+  
+  &:after {
+    @include quote("”", 15em);
+    bottom: -90px;
+    right: 40px;
+    line-height: $quote-line-height;
+  }
+  
+}
+
+.quote-card3 {
+  @include quotecard(300px, 20px, 10px solid $nature);
+  background: $osulloc;
+  color: $batman;
+  
+  p {
+    @include quotecard-text(18px, 800);
+    line-height: $default-line-height;
+    margin: $zero;
+  }
+  
+  &:before {
+    @include quote("“", 5em, $bg-batman);
+    top: -20px;
+    left: 10px;
+  }
+  
+  &:after {
+    @include quote("”", 15em, $bg-batman);
+    bottom: -90px;
+    right: 40px;
+    line-height: $quote-line-height;
+  }
+  
+}
