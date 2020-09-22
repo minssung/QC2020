@@ -26,7 +26,11 @@ QC2020
 │   qc2020.min.css.map
 │
 └───scss
-│   qc2020.scss    
+│   qc2020.scss
+│   _color.scss
+│   _main.scss
+│   _mixin.scss
+│   _variables.scss
 │   
 │───assets
 │   |
