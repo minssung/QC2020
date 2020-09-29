@@ -31,6 +31,8 @@ QC2020
 │   _main.scss
 │   _mixin.scss
 │   _variables.scss
+│   _typography.scss
+│   _boxModel.scss
 │   
 │───assets
 │   |
