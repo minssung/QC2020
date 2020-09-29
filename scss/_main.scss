@@ -1,5 +1,21 @@
+html {
+  font-size: $default-font-size;
+}
+
+.inner {
+  text-align: $default-text-align;
+}
+
 .content {
   @include content(800px);
+}
+
+.title {
+  text-decoration-line: underline;
+  color: $sky;
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3rem;
 }
 
 .quote-card {
