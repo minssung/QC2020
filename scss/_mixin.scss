@@ -35,3 +35,8 @@
   color: $color;
   font-weight: $quote-font-weight;
 }
+
+@mixin typography($font-size, $font-family: $Noto-Sans) {
+  font-size: $font-size;
+  font-family: $font-family;
+}

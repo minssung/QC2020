@@ -1,5 +1,5 @@
 html {
-  font-size: $default-font-size;
+  font-size: $root-font-size;
 }
 
 .inner {
@@ -11,11 +11,11 @@ html {
 }
 
 .title {
-  text-decoration-line: underline;
   color: $sky;
   font-size: 3rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 3rem;
+  text-decoration-line: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .quote-card {
@@ -92,6 +92,28 @@ html {
     bottom: -90px;
     right: 40px;
     line-height: $quote-line-height;
+  }
+  
+}
+
+.typography {
+  h1 {
+    @include typography($h1-size, $Noto-Sans);
+  }
+  h2 {
+    @include typography($h2-size, $Peddana);
+  }
+  h3 {
+    @include typography($h3-size, $Lobster);
+  }
+  h4 {
+    @include typography($h4-size);
+  }
+  h5 {
+    @include typography($h5-size);
+  }
+  h6 {
+    @include typography($h6-size);
   }
   
 }

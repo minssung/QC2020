@@ -2,7 +2,7 @@
 
 ## 대학교 SCSS 수업
 ### 9월 29일
-em, rem 개념 이해
+em, rem 개념 이해<br>
 typography, boxModel SCSS 생성 및 적용
 
 ### 9월 22일
